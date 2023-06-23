@@ -1,5 +1,7 @@
 ## Modern LLM Benchmarks
 
+![Poster Image](https://github.com/mukurgupta/generativeAI-NLU-benchmarks/blob/main/benchmarks_image.png)
+
 ### Common Sense Reasoning:
 1. **BoolQ** - Binary question ansering task. Each example contains (question, passage, answer). Typically formulated as text-pair classification task. Current SOTA is ST-MoE-32B followed by finetuned PaLM 540B and T5-11B.
 2. **PIQA** - Physical common sense reasoning QA dataset - Physical Interaction: Question Answering. Each example contains a question (pertaining to everyday activities) and two choices for solutions. System must identify the right solution for the task in the question.
